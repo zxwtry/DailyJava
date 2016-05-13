@@ -15,7 +15,7 @@ package java1605;
  * 			加ChineseCultureEatAction实现类
  * 		
  */
-public class 水_回调机制CallBack详解 {
+public class 水货_回调机制CallBack详解 {
 	public static void main(String[] args) {
 		Chinese chinese = new Chinese();
 		chinese.hungry();
