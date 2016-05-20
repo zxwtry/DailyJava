@@ -22,7 +22,7 @@ import java.util.concurrent.Future;
  */
 public class 干货_JavaAPI_Future接口 {
 	public static void main(String[] args) {
-
+		
 	}
 
 }
