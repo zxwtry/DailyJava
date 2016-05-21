@@ -21,7 +21,7 @@ import com.sun.jmx.snmp.tasks.ThreadService;
  * 			2,	运行完成后，只能通过get方法来获得运行结果；可以配置运行结束前阻塞get方法。
  * 			3,	通过cancel方法可以取消运行。
  * 			4,	只为取消运行而采用Future，可以采用Future<?>类型，null作为底层任务结果。
- * 	03	FutureTask是Future的实现类；FutureTask实现了Runnable接口。
+ * 	03	FutureTask是Future接口的实现类；FutureTask也实现了Runnable接口。
  * 		
  */
 public class 干货_JavaAPI_Future接口 {
