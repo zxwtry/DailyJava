@@ -2,13 +2,10 @@ package java1605;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
-
-import com.sun.jmx.snmp.tasks.ThreadService;
 
 /*
  * 	01	java.util.concurrent ：Future<V>  接口
@@ -29,10 +26,8 @@ public class 干货_JavaAPI_Future接口 {
 		try {
 			test01FutureTask();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (ExecutionException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
